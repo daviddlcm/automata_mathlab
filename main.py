@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import filedialog, messagebox, ttk
 import os
+import csv
 from automaton import Automaton
 from extracts import extract_text_pdf, extract_text_txt, extract_text_docx
 
@@ -39,12 +40,10 @@ def select_file():
 
 def sentData(data):
     global valids
-    valids = readData(data)
+    valids = automaton.find_automaton(data)
     print(valids)
     update_table()
 
-def readData(data):
-    return automaton.find_automaton(data)
 
 def update_table():
     for row in table.get_children():
@@ -54,11 +53,33 @@ def update_table():
         table.insert('', 'end', text=str(idx), values=(funcion, inicio, fin))
 
 
+def export_to_csv():
+    if not valids:
+        messagebox.showwarning("Advertencia", "No hay datos para exportar.")
+        return
+
+    file_path = filedialog.asksaveasfilename(
+        defaultextension=".csv",
+        filetypes=[("CSV files", "*.csv")],
+        title="Guardar como"
+    )
+    
+    if file_path:
+        try:
+            with open(file_path, mode="w", newline='', encoding="utf-8") as file:
+                writer = csv.writer(file)
+                writer.writerow(["Función", "Posición Inicial", "Posición Final"])  
+                for funcion, inicio, fin in valids:
+                    writer.writerow([funcion, inicio, fin])  
+                
+            messagebox.showinfo("Exportación completada", "Los datos se han exportado a CSV correctamente.")
+        except Exception as e:
+            messagebox.showerror("Error", f"Error al guardar el archivo: {e}")
+
 raiz = Tk()
 raiz.title("Validador de funciones mathLab")
 raiz.minsize(600, 600)
 raiz.config(bg="#dedede")
-
 
 title_frame = Frame(raiz, bg="#dedede")
 title_frame.pack(pady=10)
@@ -75,9 +96,12 @@ label_select_file.pack(pady=20)
 button_select_file = Button(title_frame, text="Selecciona un archivo", font=("Arial", 10), command=select_file)
 button_select_file.pack()
 
+
+button_export_csv = Button(title_frame, text="Descargar CSV", font=("Arial", 10), command=export_to_csv)
+button_export_csv.pack(pady=10)
+
 table_frame = Frame(raiz)
 table_frame.pack(pady=20, fill='both', expand=True)
-
 
 table = ttk.Treeview(table_frame, columns=("Función", "Inicio", "Fin"), show="headings")
 table.heading("Función", text="Función")
@@ -87,11 +111,9 @@ table.column("Función", width=400)
 table.column("Inicio", width=100)
 table.column("Fin", width=100)
 
-
 scrollbar = Scrollbar(table_frame, orient="vertical", command=table.yview)
 table.configure(yscrollcommand=scrollbar.set)
 scrollbar.pack(side="right", fill="y")
-
 
 table.pack(fill='both', expand=True)
 
