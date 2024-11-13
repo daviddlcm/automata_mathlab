@@ -37,14 +37,14 @@ class Automaton:
         for (from_state, to_state, read_value) in self.transitions:
             if from_state == current_state:
                 if self.match_transition(read_value, char):
-                    print(f"Estado actual: {self.states[from_state]}, Carácter: {char}, Siguiente estado: {self.states[to_state]}")
+                    #print(f"Estado actual: {self.states[from_state]}, Carácter: {char}, Siguiente estado: {self.states[to_state]}")
                     return to_state
         return None
 
 
 
     def match_transition(self, read_value, char):
-        if read_value == '[" ", ↹]':
+        if read_value == '[" "↹]':
             return char in [' ', '\t']
 
 

@@ -207,22 +207,22 @@
 		<transition>
 			<from>5</from>
 			<to>5</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>1</from>
 			<to>1</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>4</from>
 			<to>4</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>2</from>
 			<to>2</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>41</from>
@@ -237,7 +237,7 @@
 		<transition>
 			<from>80</from>
 			<to>79</to>
-			<read>,</read>
+			<read>.</read>
 		</transition>
 		<transition>
 			<from>7</from>
@@ -252,7 +252,7 @@
 		<transition>
 			<from>15</from>
 			<to>181</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>36</from>
@@ -354,7 +354,7 @@
 		<transition>
 			<from>36</from>
 			<to>179</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>11</from>
@@ -421,292 +421,292 @@
 		<transition>
 			<from>107</from>
 			<to>107</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>32</from>
 			<to>32</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>57</from>
 			<to>57</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>132</from>
 			<to>132</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>139</from>
 			<to>139</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>61</from>
 			<to>61</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>52</from>
 			<to>52</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>133</from>
 			<to>133</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>10</from>
 			<to>10</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>26</from>
 			<to>26</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>82</from>
 			<to>82</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>131</from>
 			<to>131</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>130</from>
 			<to>130</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>29</from>
 			<to>29</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>129</from>
 			<to>129</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>101</from>
 			<to>101</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>56</from>
 			<to>56</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>113</from>
 			<to>113</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>25</from>
 			<to>25</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>60</from>
 			<to>60</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>103</from>
 			<to>103</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>14</from>
 			<to>14</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>138</from>
 			<to>138</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>81</from>
 			<to>81</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>184</from>
 			<to>184</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>85</from>
 			<to>85</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>80</from>
 			<to>80</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>104</from>
 			<to>104</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>54</from>
 			<to>54</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>87</from>
 			<to>87</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>11</from>
 			<to>11</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>31</from>
 			<to>31</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>135</from>
 			<to>135</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>115</from>
 			<to>115</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>23</from>
 			<to>23</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>182</from>
 			<to>182</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>27</from>
 			<to>27</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>179</from>
 			<to>179</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>112</from>
 			<to>112</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>43</from>
 			<to>43</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>136</from>
 			<to>136</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>158</from>
 			<to>158</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>159</from>
 			<to>159</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>183</from>
 			<to>183</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>181</from>
 			<to>181</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>7</from>
 			<to>7</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>6</from>
 			<to>6</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>155</from>
 			<to>155</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>105</from>
 			<to>105</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>111</from>
 			<to>111</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>12</from>
 			<to>12</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>63</from>
 			<to>63</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>106</from>
 			<to>106</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>154</from>
 			<to>154</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>78</from>
 			<to>78</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>109</from>
 			<to>109</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>180</from>
 			<to>180</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>59</from>
 			<to>59</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>132</from>
@@ -741,7 +741,7 @@
 		<transition>
 			<from>90</from>
 			<to>180</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>84</from>
@@ -751,7 +751,7 @@
 		<transition>
 			<from>65</from>
 			<to>183</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>92</from>
@@ -828,7 +828,7 @@
 		<transition>
 			<from>170</from>
 			<to>184</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>81</from>
@@ -888,7 +888,7 @@
 		<transition>
 			<from>143</from>
 			<to>184</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>23</from>
@@ -983,12 +983,12 @@
 		<transition>
 			<from>167</from>
 			<to>182</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>37</from>
 			<to>179</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>90</from>
@@ -1023,7 +1023,7 @@
 		<transition>
 			<from>13</from>
 			<to>181</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>160</from>
@@ -1073,7 +1073,7 @@
 		<transition>
 			<from>117</from>
 			<to>182</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>114</from>
@@ -1098,7 +1098,7 @@
 		<transition>
 			<from>16</from>
 			<to>181</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>112</from>
@@ -1303,7 +1303,7 @@
 		<transition>
 			<from>67</from>
 			<to>183</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>109</from>
@@ -1338,7 +1338,7 @@
 		<transition>
 			<from>66</from>
 			<to>183</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>37</from>
@@ -1385,7 +1385,7 @@
 		<transition>
 			<from>116</from>
 			<to>182</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>154</from>
@@ -1400,22 +1400,22 @@
 		<transition>
 			<from>108</from>
 			<to>43</to>
-			<read>[-+*/^],</read>
+			<read>[-+*/^]</read>
 		</transition>
 		<transition>
 			<from>141</from>
 			<to>184</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>34</from>
 			<to>179</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>161</from>
 			<to>181</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>56</from>
@@ -1712,7 +1712,7 @@
 		<transition>
 			<from>142</from>
 			<to>184</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>23</from>
@@ -1837,7 +1837,7 @@
 		<transition>
 			<from>176</from>
 			<to>180</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>65</from>
@@ -1877,7 +1877,7 @@
 		<transition>
 			<from>164</from>
 			<to>183</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>94</from>
@@ -1892,12 +1892,12 @@
 		<transition>
 			<from>118</from>
 			<to>182</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>86</from>
 			<to>108</to>
-			<read>,</read>
+			<read>.</read>
 		</transition>
 		<transition>
 			<from>85</from>
@@ -1912,7 +1912,7 @@
 		<transition>
 			<from>35</from>
 			<to>179</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>105</from>
@@ -2094,7 +2094,7 @@
 		<transition>
 			<from>61</from>
 			<to>62</to>
-			<read>,</read>
+			<read>.</read>
 		</transition>
 		<transition>
 			<from>181</from>
@@ -2184,7 +2184,7 @@
 		<transition>
 			<from>60</from>
 			<to>108</to>
-			<read>,</read>
+			<read>.</read>
 		</transition>
 		<transition>
 			<from>66</from>
@@ -2286,7 +2286,7 @@
 		<transition>
 			<from>89</from>
 			<to>180</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>9</from>
@@ -2341,7 +2341,7 @@
 		<transition>
 			<from>173</from>
 			<to>179</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>47</from>
@@ -2396,7 +2396,7 @@
 		<transition>
 			<from>88</from>
 			<to>180</to>
-			<read>[" ","↹"]</read>
+			<read>[" ""↹"]</read>
 		</transition>
 		<transition>
 			<from>142</from>
