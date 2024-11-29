@@ -182,13 +182,51 @@
 		<state id="182" name="q182" />
 		<state id="183" name="q183" />
 		<state id="184" name="q184" />
-
+		<state id="38" name="q38"/>
+		<state id="42" name="q42"/>
 		
 		
 
 
 		
 		<!--The list of transitions.-->
+		<transition>
+			<from>5</from>
+			<to>38</to>
+			<read>[',']</read>
+		</transition>
+		<transition>
+			<from>42</from>
+			<to>4</to>
+			<read>[',']</read>
+		</transition>
+		<transition>
+			<from>38</from>
+			<to>42</to>
+			<read>[abcdefghijklmnopqrstuvwxyz]</read>
+		</transition>
+		<transition>
+			<from>38</from>
+			<to>38</to>
+			<read>[" ""↹"]</read>
+		</transition>
+		<transition>
+			<from>42</from>
+			<to>42</to>
+			<read>[" ""↹"]</read>
+		</transition>
+		<transition>
+			<from>42</from>
+			<to>7</to>
+			<read>)</read>
+		</transition>
+
+
+		<transition>
+			<from>5</from>
+			<to>38</to>
+			<read>[,]</read>
+		</transition>
 		<transition>
 			<from>182</from>
 			<to>115</to>
