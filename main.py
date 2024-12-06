@@ -5,7 +5,7 @@ import csv
 from automaton import Automaton
 from extracts import extract_text_pdf, extract_text_txt, extract_text_docx
 
-automaton = Automaton('grafoFinalFinal.xml')
+automaton = Automaton('automaton.xml')
 valids = []
 
 def select_file():
@@ -68,7 +68,7 @@ def export_to_csv():
         try:
             with open(file_path, mode="w", newline='', encoding="utf-8") as file:
                 writer = csv.writer(file)
-                writer.writerow(["Función", "Posición Inicial", "Posición Final"])  
+                writer.writerow(["Funcion", "Posicion Inicial", "Posicion Final"])  
                 for funcion, inicio, fin in valids:
                     writer.writerow([funcion, inicio, fin])  
                 
@@ -107,9 +107,9 @@ table = ttk.Treeview(table_frame, columns=("Función", "Inicio", "Fin"), show="h
 table.heading("Función", text="Función")
 table.heading("Inicio", text="Posición Inicial")
 table.heading("Fin", text="Posición Final")
-table.column("Función", width=400)  
-table.column("Inicio", width=100)
-table.column("Fin", width=100)
+table.column("Función", width=400, anchor="center")  
+table.column("Inicio", width=100, anchor="center")
+table.column("Fin", width=100, anchor="center")
 
 scrollbar = Scrollbar(table_frame, orient="vertical", command=table.yview)
 table.configure(yscrollcommand=scrollbar.set)
